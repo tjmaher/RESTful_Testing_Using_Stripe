@@ -1,6 +1,6 @@
 # RESTful_Testing_Using_Stripe
 <p>This project was started as a way to showcase how code was initially being developed how to communicate with the REST APIs of Stripe and possibly get feedback from any other automated testers who were familiar with writing API tests. For background information, see <a href="http://www.tjmaher.com/2016/02/testing-beyond-ui-testing-pyramid.html">Testing Beyond the UI: The Testing Pyramid</a>.</p>
-
+<p>A Walkthrough of how the code had been created was given on the blog <i>Adventures in Automation</i> at <a href="http://www.tjmaher.com/">http://www.tjmaher.com</a>.
 <ul>
 <li><b>Introduction</b>: <a href="http://www.tjmaher.com/2016/02/coming-up-how-to-work-with-rest-apis.html">Coming up: RESTful Testing: How to work with RESTful API's using Apache's HTTPComponents and Java</a></li>
 <li><b>Part One</b>: <a href="http://www.tjmaher.com/2016/02/restful-testing-with-stripe-brief.html">Brief introduction to REST APIs</a></li>
