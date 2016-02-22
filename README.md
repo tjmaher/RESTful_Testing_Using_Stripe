@@ -6,5 +6,6 @@
 <li><b>Part One</b>: <a href="http://www.tjmaher.com/2016/02/restful-testing-with-stripe-brief.html">Brief introduction to REST APIs</a></li>
 <li><b>Part Two</b>: <a href="http://www.tjmaher.com/2016/02/restful-testing-with-stripe-interacting.html">Interacting with Stripe using HTTPS and cURL</a></li>
 <li><b>Part Three</b>: Storing API Keys in properties files and initial setup of StripeUtils</li>
-<li><b>Part Four</b>: <a href="http://www.tjmaher.com/2016/02/restful-testing-with-stripe-interacting.html">Using UriBuilder, HttpGet and other Apache HttpComponents</li>
+<li><b>Part Four</b>: Using UriBuilder, HttpGet and other Apache HttpComponents</li>
+<li><b>Part Five</b>: From JSON to Object: HttpEntity and GSON</li>
 </ul>
