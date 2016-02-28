@@ -7,6 +7,6 @@
 <li><b>Part Two</b>: <a href="http://www.tjmaher.com/2016/02/restful-testing-with-stripe-interacting.html">Interacting with Stripe using HTTPS and cURL</a></li>
 <li><b>Part Three</b>: <a href="http://www.tjmaher.com/2016/02/restful-testing-with-stripe-storing-api_23.html">Storing API Keys in properties files and initial setup of StripeUtils</a></li>
 <li><b>Part Four</b>: <a href="http://www.tjmaher.com/2016/02/restful-testing-with-stripe-using.html">Using UriBuilder, HttpGet and other Apache HttpComponents</a></li>
-<li><b>Part Five</b>: From JSON to Object: HttpEntity and GSON</li>
+<li><b>Part Five</b>: <a href="/2016/02/restful-testing-with-stripe-from-json.html">From JSON to Object: HttpEntity and GSON</a></li>
 <li><b>Part Six</b>: Adding to the Data Object</li>
 </ul>
