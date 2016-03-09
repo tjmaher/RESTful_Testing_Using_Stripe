@@ -36,8 +36,8 @@ public class StripeUtils {
     private static void getAPIKey(Locale country) {
         getAPIVersion();
         if (country.equals(Locale.US)) {
-            getAPIKeyUS();
-        }
+            getAPIKey();
+        } else {
             throw new TestException("ERROR: Stripe is used only for US. Country entered: " + country);
         }
     }
