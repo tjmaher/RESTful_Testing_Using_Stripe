@@ -25,26 +25,20 @@ import java.util.Locale;
  * Created by tmaher on 2/16/2016.
  */
 public class StripeUtils {
-    private static String getAPIKeyUS() {
-        return Stripe.apiKey = LoadProperties.qaData.get("stripe.api.key.us").toString();
+    private static String getAPIKey() {
+        return Stripe.apiKey = LoadProperties.qaData.get("stripe.api.key").toString();
     }
 
     private static String getAPIVersion() {
         return Stripe.apiVersion = LoadProperties.qaData.get("stripe.api.version").toString();
     }
 
-    private static String getAPIKeyCA() {
-        return Stripe.apiKey = LoadProperties.qaData.get("stripe.api.key.ca").toString();
-    }
-
     private static void getAPIKey(Locale country) {
         getAPIVersion();
         if (country.equals(Locale.US)) {
             getAPIKeyUS();
-        } else if (country.equals(Locale.CANADA)){
-            getAPIKeyCA();
-        } else {
-            throw new TestException("ERROR: Stripe is used only for US or CANADA. Country entered: " + country);
+        }
+            throw new TestException("ERROR: Stripe is used only for US. Country entered: " + country);
         }
     }
 
